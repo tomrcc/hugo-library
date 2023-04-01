@@ -1,7 +1,10 @@
 .header {
+  $header-height: 70px;
+
   position: absolute;
-  z-index: 99;
+  z-index: 10;
   min-width: 100vw;
+  height: $header-height;
 
   a {
     text-decoration: none;
@@ -30,16 +33,27 @@
 
   &__nav-links {
     position: absolute;
-    right: 1rem;
-    top: 54px;
+    z-index: 20;
+    right: 0;
+    top: 0;
+    display: flex;
     flex-direction: column;
     justify-content: space-between;
-    align-items: center;
+    gap: 1rem;
+    min-width: 200px;
+    padding: 1rem;
+    padding-top: $header-height;
+    border-radius: 6px;
+    background-color: black;
 
     @media screen and (min-width: 800px) {
       position: static;
-      flex-direction: row;
       display: flex !important;
+      flex-direction: row;
+      justify-content: end;
+      padding: 0;
+      min-width: none;
+      background-color: transparent;
     }
   }
 
