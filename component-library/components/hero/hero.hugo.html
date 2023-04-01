@@ -1,0 +1,15 @@
+{{ $c := "c-hero" }}
+
+<style>
+    .c-hero {
+        background-image: url({{ .background_image.src }});
+    }
+</style>
+
+<div class="{{ $c }}">
+    <div class="{{ $c }}__container">
+        <h1 class="{{ $c }}__title">
+            {{ .title }}
+        </h1> 
+    </div>
+</div>

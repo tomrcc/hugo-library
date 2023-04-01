@@ -1,0 +1,42 @@
+{{ $c := "header" }}
+{{ $p := . -}}
+
+{{ with .Page.Params.content_blocks }}
+  {{ if and (eq (index . 0)._bookshop_name "hero") }}
+    <style>
+      .header {
+        background-color: transparent;
+      }
+    </style>
+  {{ end }}
+{{ end }}
+
+<header class="{{ $c }}" x-data="{ open: false }">
+  <div class="container">
+    <nav class="{{ $c }}__nav">
+      <a class="{{ $c }}__logo-link" href="/">
+        <img class="{{ $c }}__logo-image" src="" alt="">BOTY
+      </a>
+      {{ partial "hamburger.html" . }}
+      <ul class="{{ $c }}__nav-links" x-show="open" x-transition @click.outside="open = false">
+        {{ range .Site.Menus.main -}}
+          <li class="{{ $c }}__nav-item" >
+            {{ $active := or ($p.IsMenuCurrent "main" .) ($p.HasMenuCurrent "main" .) -}}
+            {{ with .Page }}{{ $active = or $active ( $.IsDescendant .) }}{{ end -}}
+            {{ $url := urls.Parse .URL -}}
+            {{ $baseurl := urls.Parse $.Site.Params.baseURL -}}
+            <a
+              class="{{- if $active }} active {{- end }}"
+              href="{{ with .Page }}{{ .RelPermalink }}{{ else }}{{ .URL | relLangURL }}{{ end }}"
+              {{- if ne $url.Host $baseurl.Host }} target="_blank" {{- end -}}
+            >
+              <span {{- if $active }} class="active" {{- end }}>
+                {{- .Name -}}
+              </span>
+            </a>
+          </li>
+        {{ end -}}
+      </ul>
+    </nav>
+  </div>
+</header>

@@ -1,0 +1,11 @@
+module:
+  hugoVersion:
+    extended: true
+    min: 0.86.1
+  mounts:
+    - source: .
+      target: layouts/partials/bookshop
+      includeFiles:
+        - '**/*.hugo.html'
+    - source: .
+      target: assets/bookshop

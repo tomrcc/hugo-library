@@ -1,0 +1,32 @@
+.hamburger {
+  position: relative;
+  border: none;
+  cursor: pointer;
+
+  @media screen and (min-width: 800px) {
+    display: none;
+  }
+
+  &__inner,
+  &::before,
+  &::after {
+    width: 2rem;
+    height: .25rem;
+    background-color: $white;
+  }
+
+  &::before,
+  &::after {
+    content: "";
+    display: block;
+    position: absolute;
+  }
+  
+  &::before {
+    top: -0.625rem;
+  }
+
+  &::after {
+    bottom: -0.625rem;
+  }
+}
