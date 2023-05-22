@@ -1,3 +1,7 @@
 <div class="c-card-grid">
-    <p>{{ .text }}</p>
+    <div class="container grid-cols-3">
+        {{ range .cards }}
+            {{ partial "bookshop" (slice "simple/card" . ) }}
+        {{ end }}
+    </div>
 </div>
