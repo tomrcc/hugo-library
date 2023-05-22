@@ -1,7 +1,7 @@
 --- 
 content_blocks:
-  - _bookshop_name: hero
+  - _bookshop_name: section/hero
     title: Body of the Year Bakery
     background_image:
-      src: uploads/flour-milling.jpg
+      src: uploads/images/flour-milling.jpg
 ---
