@@ -1,11 +1,33 @@
-- "Buster Greens"
-- "Ebb"
-- "Maggies"
-- "No. 7 Balmac"
-- "RDC"
-- "Taste Nature"
-- "The Corner Store"
-- "The Duck"
-- "The Good Food Co."
-- "Tuppence"
-- "Vanguard"
+- name: "Buster Greens"
+  image:
+  url:
+- name: "Ebb"
+  image:
+  url:
+- name: "Maggies"
+  image:
+  url:
+- name: "No. 7 Balmac"
+  image:
+  url:
+- name: "RDC"
+  image:
+  url:
+- name: "Taste Nature"
+  image:
+  url:
+- name: "The Corner Store"
+  image:
+  url:
+- name: "The Duck"
+  image:
+  url:
+- name: "The Good Food Co."
+  image:
+  url:
+- name: "Tuppence"
+  image:
+  url:
+- name: "Vanguard"
+  image:
+  url:

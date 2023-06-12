@@ -1,0 +1,7 @@
+<div class="c-product-card-grid">
+    <div class="container grid-cols-1 md:grid-cols-3">
+        {{ range .products }}
+            {{ partial "bookshop" (slice "simple/product-card" . ) }}
+        {{ end }}
+    </div>
+</div>

@@ -2,14 +2,15 @@
 spec:
   structures:
     - content_blocks
-  label: "Card-grid"
+  label: "Products"
   description:
   icon:
   tags: []
 
 # Defines the structure of this component, as well as the default values
 blueprint:
-  cards: [bookshop:simple/card]
+  text:
+  products: [bookshop:simple/product-card]
 
 # Overrides any fields in the blueprint when viewing this component in the component browser
 preview:

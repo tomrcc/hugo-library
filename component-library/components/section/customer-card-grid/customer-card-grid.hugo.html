@@ -1,0 +1,8 @@
+<div class="c-customer-card-grid">
+    <p>{{ .text }}</p>
+    <ul>
+        {{ range .customers }}
+            {{ partial "bookshop" (slice "simple/customer-card" . ) }}
+        {{ end }}
+    </ul>
+</div>
