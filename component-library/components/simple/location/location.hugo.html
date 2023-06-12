@@ -1,0 +1,9 @@
+<div class="c-location">
+    <h3>{{ .heading }}</h3>
+    <p>{{ .text }}</p>
+    <div class="days">
+        {{ range .days }}
+            {{ partial "bookshop" (slice "simple/day" . )}}
+        {{ end }}
+    </div>
+</div>

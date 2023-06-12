@@ -1,0 +1,7 @@
+<div class="c-menu">
+    <h2>{{ .heading }}</h2>
+    <p>{{ .text }}</p>
+    {{ range .locations }}
+        {{ partial "bookshop" (slice "simple/location" . )}}
+    {{ end }}
+</div>

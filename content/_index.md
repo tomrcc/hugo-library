@@ -5,6 +5,27 @@ content_blocks:
     lead: "Dunedin, NZ"
     background_image:
       src: uploads/images/flour-milling.jpg
+  - _bookshop_name: section/menu
+    heading: Menu
+    text: Where and when you can find our loaves IRL
+    locations:
+      - _bookshop_name: simple/location
+        heading: Taste Nature
+        text: Our range of loaves sold at Taste Nature
+        days:
+          - _bookshop_name: simple/day
+            day: "Day 1"
+            loaves:
+              - Sourdough
+      - _bookshop_name: simple/location
+        heading: Sourdough Loaves
+        text: "We sell our OG sourdough loaves at a range of local business' across Dunedin"
+        days:
+          - _bookshop_name: simple/day
+            day: "Day 2"
+            loaves:
+              - Wheat
+              - Rye
   - _bookshop_name: section/card-grid
     cards:
       - _bookshop_name: simple/card
