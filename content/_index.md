@@ -8,12 +8,6 @@ content_blocks:
   - _bookshop_name: section/customer-card-grid
     text: We supply our regular sourdough to the following outlets
     customers:
-      - name: "Maggies"
-        image:
-        url:
-      - name: "The Duck"
-        image:
-        url:
   - _bookshop_name: section/menu
     heading: Menu
     text: We have a range of loaves available at our main outlet, Taste Nature.
