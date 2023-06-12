@@ -11,14 +11,25 @@ blueprint:
   url:
   text:
   image:
+    src:
+    alt:
   image_hover:
 
 # Overrides any fields in the blueprint when viewing this component in the component browser
 preview:
   url: /
   text: A card
-  image: https://placekitten.com/500
-  image_hover: https://placekitten.com/450
+  image:
+    image_path: https://placekitten.com/500
+    image_alt: Kitty
+  image_hover:
+    image_path: https://placekitten.com/450
+    image_alt: Kitty
 
 # Any extra CloudCannon inputs configuration to apply to the blueprint
 _inputs:
+  image_hover:
+    comment: The image you see when hovering over a card
+  image_alt:
+    type: textarea
+    comment: A description of the image for people using screen readers, or if the image fails to load.
