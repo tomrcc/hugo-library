@@ -1,10 +1,10 @@
 ---
-title: About
-linkTitle: About
-description: About Body of the Year
+title: Blog
+linkTitle: Blog
+description: Bread thoughts
 menu:
   main:
-    weight: 1
+    weight: 2
 content_blocks:
   - _bookshop_name: section/hero
     title: Body of the Year Bakery
