@@ -17,7 +17,7 @@ preview:
 # Any extra CloudCannon inputs configuration to apply to the blueprint
 _inputs:
   customer:
-    type: multiselect
+    type: select
     options:
       values: data.customers
       value_key: name
