@@ -8,12 +8,14 @@ spec:
 
 # Defines the structure of this component, as well as the default values
 blueprint:
+  url:
   text:
   image:
   image_hover:
 
 # Overrides any fields in the blueprint when viewing this component in the component browser
 preview:
+  url: /
   text: A card
   image: https://placekitten.com/500
   image_hover: https://placekitten.com/450

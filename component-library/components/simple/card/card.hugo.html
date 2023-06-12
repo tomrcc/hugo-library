@@ -1,7 +1,7 @@
-<div class="c-card" x-data="{ card_hover: false }">
+<a href="{{ .url }}" class="c-card p-3" x-data="{ card_hover: false }" x-on:pointerenter="card_hover = ! card_hover" x-on:pointerleave="card_hover = ! card_hover">
     <p>{{ .text }}</p>
-    <div class="images" x-on:pointerenter="card_hover = ! card_hover">
+    <div class="images">
         <img x-show="!card_hover" src="{{ .image }}" alt="">
-        <img x-show="card_hover" x-transition src="{{ .image_hover }}" alt="">
+        <img x-show="card_hover" src="{{ .image_hover }}" alt="">
     </div>
-</div>
+</a>

@@ -10,12 +10,14 @@ spec:
 # Defines the structure of this component, as well as the default values
 blueprint:
   title:
+  lead:
   background_image:
     src: 
 
 # Overrides any fields in the blueprint when viewing this component in the component browser
 preview:
   title: Body of the Year Bakery
+  lead: "Dunedin, NZ"
   background_image:
     src: http://www.placekitten.com/1000/1000
 

@@ -1,5 +1,5 @@
 <div class="c-card-grid">
-    <div class="container grid-cols-3">
+    <div class="container grid-cols-1 md:grid-cols-3">
         {{ range .cards }}
             {{ partial "bookshop" (slice "simple/card" . ) }}
         {{ end }}

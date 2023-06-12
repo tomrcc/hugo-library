@@ -3,29 +3,36 @@
     background-repeat: no-repeat;
 
     &__container {
-        position: relative;
         display: grid;
         grid-template-columns: $twelve-column-grid;
-        align-items: center;
         max-width: 1280px;
+        min-height: 50vh;
+        padding-block: 110px;
         margin: 0 auto;
+        color: white;
     }
 
     &__title {
-        position: relative;
         z-index: 1;
         grid-column: 2 / -2;
-        grid-row: 1;
-        min-height: 50vh;
-        display: flex;
-        align-items: center;
-        font-size: 5rem;
-        padding-block: 96px;
-        color: white;
+        grid-row: 2;
+        font-size: 3rem;
+        color: inherit;
+        line-height: 1;
+        margin-inline-start: -3px;
 
         @media screen and (min-width: 800px) {
+            font-size: 5rem;
             grid-column: 2 / 10;
           }
+    }
+
+    &__lead {
+        grid-row: 1;
+        grid-column: 2 / -2;
+        display: flex;
+        align-items: flex-end;
+        color: inherit;
     }
 
     &__image {
