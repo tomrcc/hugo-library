@@ -10,5 +10,5 @@ content_blocks:
     title: Body of the Year Bakery
     lead: "Dunedin, NZ"
     background_image:
-      src: uploads/images/flour-milling.jpg
+      src: /uploads/images/flour-milling.jpg
 ---

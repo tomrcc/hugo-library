@@ -4,7 +4,7 @@ content_blocks:
     title: Body of the Year Bakery
     lead: "Dunedin, NZ"
     background_image:
-      src: uploads/images/flour-milling.jpg
+      src: /uploads/images/flour-milling.jpg
   - _bookshop_name: section/outlets
     text: We supply our regular sourdough to the following outlets
     outlets:
