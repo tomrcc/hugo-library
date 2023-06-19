@@ -45,4 +45,6 @@ timezone: Etc/UTC
 _inputs:
   text:
     type: markdown
+  heading:
+    type: textarea
 
