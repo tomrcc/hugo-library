@@ -12,7 +12,9 @@ blueprint:
   title:
   lead:
   background_image:
-  button: bookshop:generic/button
+  button:
+    button_link:
+    button_text:
 
 # Overrides any fields in the blueprint when viewing this component in the component browser
 preview:
