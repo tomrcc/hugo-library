@@ -11,7 +11,7 @@ content_blocks:
     lead: "Dunedin, NZ"
     background_image:
       src: /uploads/images/flour-milling.jpg
-  - _bookshop_name: section/product-card-grid
+  - _bookshop_name: section/card-grid-products
     products:
       - _bookshop_name: simple/product-card
         url: /shop/bread1

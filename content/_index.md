@@ -5,7 +5,7 @@ content_blocks:
     lead: "Dunedin, NZ"
     background_image:
       src: /uploads/images/flour-milling.jpg
-  - _bookshop_name: section/customer-card-grid
+  - _bookshop_name: section/card-grid-customers
     text: We supply our regular sourdough to the following outlets
     customers:
   - _bookshop_name: section/menu

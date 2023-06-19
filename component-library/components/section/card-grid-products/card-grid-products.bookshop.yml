@@ -17,3 +17,8 @@ preview:
 
 # Any extra CloudCannon inputs configuration to apply to the blueprint
 _inputs:
+  products:
+    type: multiselect
+    options:
+      values: data.loaves
+      value_key: name

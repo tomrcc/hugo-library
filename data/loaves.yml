@@ -1,18 +1,38 @@
-- "Soft White"
-- "Purple Wheat"
-- "Multigrain"
-- "Wheat "
-- "Polenta, Sunflower and Pumpkin Seeds"
-- "100% Rye ( Pumpernickel)"
-- "Seven Seed"
-- "100 % Wholemeal Wheat"
-- "Spelt and Sesame"
-- "Ciabatta"
-- "Olive & Rosemary"
-- "100% Spelt"
-- "100% Wholemeal Spelt"
-- "Country Rye"
-- "Turmeric & linseed"
-- "Date and Walnut"
-- "Olive and Rosemary"
-- "Oat Porridge"
+- name: "Classic Sourdough"
+  price: 10
+- name: "Soft White"
+  price: 10
+- name: "Purple Wheat"
+  price: 10
+- name: "Multigrain"
+  price: 10
+- name: "Wheat"
+  price: 10
+- name: "Polenta, Sunflower and Pumpkin Seeds"
+  price: 10
+- name: "100% Rye ( Pumpernickel)"
+  price: 10
+- name: "Seven Seed"
+  price: 10
+- name: "100 % Wholemeal Wheat"
+  price: 10
+- name: "Spelt and Sesame"
+  price: 10
+- name: "Ciabatta"
+  price: 10
+- name: "Olive & Rosemary"
+  price: 10
+- name: "100% Spelt"
+  price: 10
+- name: "100% Wholemeal Spelt"
+  price: 10
+- name: "Country Rye"
+  price: 10
+- name: "Turmeric & linseed"
+  price: 10
+- name: "Date and Walnut"
+  price: 10
+- name: "Olive and Rosemary"
+  price: 10
+- name: "Oat Porridge"
+  price: 10
