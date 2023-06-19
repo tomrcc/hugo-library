@@ -75,5 +75,11 @@ fs.readFile('./data/colors.json', 'utf8', function(err, dataFile){
                 console.log(err);
             }
         });
+        // Write result back to variables.scss
+        fs.writeFile('./component-library/shared/styles/global.scss', replaced, 'utf-8', function (err) {
+            if(err){
+                console.log(err);
+            }
+        });
     });
 });

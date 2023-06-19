@@ -5,7 +5,7 @@
     &__container {
         display: grid;
         grid-template-columns: $twelve-column-grid;
-        max-width: 1280px;
+        max-width: $container-lg;
         min-height: 50vh;
         padding-block: 110px;
         margin: 0 auto;
@@ -21,7 +21,7 @@
         line-height: 1;
         margin-inline-start: -3px;
 
-        @media screen and (min-width: 800px) {
+        @media screen and (min-width: $container-md) {
             font-size: 5rem;
             grid-column: 2 / 10;
           }

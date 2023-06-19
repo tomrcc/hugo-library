@@ -1,6 +1,9 @@
+// Resets
+$link-decoration: none;
+
 // Colors
 $primary: #5282e3 !default;
-$secondary: #4e28b8 !default;
+$secondary: #FFFFFF !default;
 $success: #76f191 !default;
 $info: #c0d1e0 !default;
 $warning: #ed6a5a !default;
@@ -20,7 +23,8 @@ $font-weight: 600;
 // Grid layout to be used on most components
 $twelve-column-grid: 1fr repeat(12, calc(min(96px, 7.78%))) 1fr;
 
-$max-width: 1280px;
-
-$link-decoration: none
+// Page containers
+$container-lg: 1280px;
+$container-md: 800px;
+$container-sm: 600px;
 

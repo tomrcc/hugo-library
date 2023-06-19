@@ -1,1 +1,30 @@
+// Resets
+$link-decoration: none;
+
+// Colors
+$primary: #5282e3 !default;
+$secondary: #FFFFFF !default;
+$success: #76f191 !default;
+$info: #c0d1e0 !default;
+$warning: #ed6a5a !default;
+$danger: #ff1c00 !default;
+$white: #ffffff !default;
+$light: #d3f3ee !default;
+$dark: #403f4c !default;
+$black: #070912 !default;
+$blue: #408eff !default;
+$orange: #ffbfa3 !default;
+$background: #ffefe8 !default;
+
+// Fonts
+$font: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+$font-weight: 600;
+
+// Grid layout to be used on most components
 $twelve-column-grid: 1fr repeat(12, calc(min(96px, 7.78%))) 1fr;
+
+// Page containers
+$container-lg: 1280px;
+$container-md: 800px;
+$container-sm: 600px;
+
