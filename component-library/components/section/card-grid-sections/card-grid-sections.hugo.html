@@ -1,0 +1,9 @@
+{{ $c := "c-card-grid-sections" }}
+
+<div class="{{ $c }}">
+    <div class="{{ $c }}__container">
+        {{ range .sections }}
+            {{ partial "bookshop" (slice "simple/section-card" . ) }}
+        {{ end }}
+    </div>
+</div>

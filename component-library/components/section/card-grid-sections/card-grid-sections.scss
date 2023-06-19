@@ -1,0 +1,16 @@
+.c-card-grid-sections {
+  display: grid;
+  grid-template-columns: $twelve-column-grid;
+  max-width: $container-lg;
+  margin: 0 auto;
+
+  &__container {
+    grid-column: 2 / -2;
+    display: grid;
+    gap: 1rem;
+
+    @media screen and (min-width: $container-sm) {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+}

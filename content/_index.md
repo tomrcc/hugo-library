@@ -1,33 +1,28 @@
 ---
 content_blocks:
   - _bookshop_name: section/hero
-    title: Body of the Year Bakery
-    lead: Dunedin, NZ
-    background_image:
-      src: /uploads/images/flour-milling.jpg
-  - _bookshop_name: section/card-grid-customers
-    text: We supply our regular sourdough to the following outlets
-    customers:
-  - _bookshop_name: section/menu
-    heading: Menu
-    text: We have a range of loaves available at our main outlet, Taste Nature.
-    days:
-      - _bookshop_name: simple/day
-        day: Tuesday
-        loaves:
-          - Sourdough
-          - Soft White
-          - Purple Wheat
-          - Multigrain
-      - _bookshop_name: simple/day
-        day: Wednesday
-        loaves:
-          - Classic Sourdough
-          - Purple Wheat
-          - Polenta, Sunflower and Pumpkin Seeds
-          - 100% Rye ( Pumpernickel)
-          - Seven Seed
-          - 100 % Wholemeal Wheat
-          - Spelt and Sesame
-          - Ciabatta
+    lead: 
+    title: Body of the Year
+    subtitle: Bakery for Dunedin, New Zealand
+    background_image: /uploads/images/flour-milling.jpg
+    button:
+      button_link: /contact
+      button_text: Contact Us
+  - _bookshop_name: section/card-grid-sections
+    sections:
+      - _bookshop_name: simple/section-card
+        heading: Shop
+        text: Order our loaves for home delivery.
+        image: http://www.placekitten.com/300
+        link: /shop
+      - _bookshop_name: simple/section-card
+        heading: Wholesale
+        text: Find out about becoming a wholesale customer.
+        image: http://www.placekitten.com/300
+        link: /wholesale
+      - _bookshop_name: simple/section-card
+        heading: What we do
+        text: Learn more about us.
+        image: http://www.placekitten.com/300
+        link: /about
 ---
