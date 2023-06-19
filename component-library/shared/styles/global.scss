@@ -20,11 +20,11 @@ $background: #ffefe8 !default;
 $font: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 $font-weight: 600;
 
-// Grid layout to be used on most components
+// Layouts
 $twelve-column-grid: 1fr repeat(12, calc(min(96px, 7.78%))) 1fr;
+$header-height: 70px;
 
 // Page containers
 $container-lg: 1280px;
 $container-md: 800px;
 $container-sm: 600px;
-

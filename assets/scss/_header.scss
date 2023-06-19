@@ -1,11 +1,16 @@
 .header {
-  $header-height: 70px;
-
   position: fixed;
   top: 0;
   z-index: 10;
+  display: grid;
+  grid-template-columns: $twelve-column-grid;
   min-width: 100vw;
   height: $header-height;
+
+  &__container {
+    max-width: $container-lg;
+    grid-column: 2 / -2;
+  }
 
   a {
     text-decoration: none;
@@ -20,7 +25,6 @@
   }
 
   &__nav {
-    grid-column: 2 / -2;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -47,7 +51,7 @@
     border-radius: 6px;
     background-color: black;
 
-    @media screen and (min-width: 800px) {
+    @media screen and (min-width: $container-md) {
       position: static;
       display: flex !important;
       flex-direction: row;
@@ -59,7 +63,7 @@
   }
 
   &__nav-item {
-    @media screen and (min-width: 800px) {
+    @media screen and (min-width: $container-md) {
       padding-left: 1rem;
     }
   }
