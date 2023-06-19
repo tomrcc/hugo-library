@@ -1,46 +1,53 @@
 .c-hero {
     background-size: cover;
     background-repeat: no-repeat;
+    margin-bottom: 96px;
 
     &__container {
         display: grid;
         grid-template-columns: $twelve-column-grid;
         max-width: $container-lg;
-        min-height: 50vh;
         padding-block: 110px;
         margin: 0 auto;
         color: white;
     }
 
-    &__title {
-        z-index: 1;
+    &__title,
+    &__subtitle,
+    &__lead,
+    &__button {
         grid-column: 2 / -2;
+        color: inherit;
+    }
+
+    &__lead {
+        grid-row: 1;
+        display: flex;
+        align-items: flex-end;
+    }
+
+    &__title {
         grid-row: 2;
         font-size: 3rem;
-        color: inherit;
         line-height: 1;
         margin-inline-start: -3px;
 
         @media screen and (min-width: $container-md) {
             font-size: 5rem;
-            grid-column: 2 / 10;
           }
     }
 
-    &__lead {
-        grid-row: 1;
-        grid-column: 2 / -2;
-        display: flex;
-        align-items: flex-end;
-        color: inherit;
+    &__subtitle {
+        grid-row: 3;
+        padding-top: 5px;
     }
 
-    &__image {
-        position: absolute;
-        right: 0;
-        bottom: -50%;
-        min-width: 150px;
-        width: 50%;
-        max-width: 420px;
+    &__button {
+        grid-row: 4;
+        margin-top: 3rem;
+        padding: 0.75rem 1.5rem;
+        background: black;
+        border-radius: 3px;
+        max-width: fit-content;
     }
 }
