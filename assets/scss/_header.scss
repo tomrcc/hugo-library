@@ -16,7 +16,7 @@
     text-decoration: none;
 
     span {
-      color: $white;
+      color: $dark;
     }
   }
 
@@ -49,8 +49,10 @@
     padding: 1rem;
     padding-top: $header-height;
     border-radius: 6px;
-    background-color: black;
-
+    
+    @media screen and (max-width: $container-md) {
+      box-shadow: -1px 1px 12px rgb(203, 203, 203);
+    }
     @media screen and (min-width: $container-md) {
       position: static;
       display: flex !important;

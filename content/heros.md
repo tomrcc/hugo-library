@@ -19,7 +19,7 @@ content_blocks:
         heading: Hero - Classic
         text: A simple hero with background image.
         image: http://www.placekitten.com/300
-        link: heros/hero-classic/
+        link: hero-classic/
       - _bookshop_name: simple/section-card
         heading: Wholesale
         text: Find out about becoming a wholesale customer.
