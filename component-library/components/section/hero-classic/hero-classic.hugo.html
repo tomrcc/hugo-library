@@ -12,12 +12,14 @@
         <h1 class="{{ $c }}__title">{{ .title }}</h1>
         <p class="{{ $c }}__subtitle">{{ .subtitle }}</p>
         {{ if .button }}
-            {{ $blank := "_blank" }}
-            {{ $self := "_self" }}
-            {{ $target := .button.button_target }}
             <a class="{{ $c }}__button"
-                {{ if eq $blank $target }} target="_blank"{{ end }} 
-                {{ if eq $blank $self }} target="_self"{{ end }} 
+                {{ if .button.button_target }}              
+                    {{ $blank := "_blank" }}
+                    {{ $self := "_self" }}
+                    {{ $target := .button.button_target }}
+                    {{ if eq $blank $target }} target="_blank"{{ end }} 
+                    {{ if eq $blank $self }} target="_self"{{ end }} 
+                {{ end }}
                 href="{{ .button.button_link }}">
                 {{ .button.button_text }}
             </a>
