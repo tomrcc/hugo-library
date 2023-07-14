@@ -2,9 +2,9 @@
 content_blocks:
   - _bookshop_name: section/hero
     lead: 
-    title: Body of the Year
-    subtitle: Bakery for Dunedin, New Zealand
-    background_image: /uploads/images/flour-milling.jpg
+    title: Hugo Components
+    subtitle: A library of Hugo Bookshop components
+    background_image: "www.placekitten.com/1500"
     button:
       button_link: /contact
       button_text: Contact Us
