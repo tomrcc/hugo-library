@@ -22,3 +22,10 @@ The bookshop components live in `component-library`, which is loaded as a Hugo m
 The site also pulls in the main dependency of `github.com/cloudcannon/bookshop/hugo/v2`.
 
 To learn more, read the [Bookshop Hugo Guide](https://github.com/CloudCannon/bookshop/blob/main/guides/hugo.adoc).
+
+## Troubleshooting
+If encountering errors, try run
+```bash
+npm run bookshop-update
+npm run hugo-clean
+```

@@ -11,6 +11,9 @@
     "bookshop": "npx @bookshop/browser@latest",
     "bookshop-update": "npx @bookshop/up@latest",
     "new": "npx @bookshop/init --component",
+    "mod:clean": "hugo mod clean",
+    "mod:tidy": "hugo mod tidy",
+    "hugo-clean": "run-s mod:clean mod:tidy",
     "start": "run-s javascript prebuild:fetch-color hugo-server",
     "dev": "run-s javascript prebuild:fetch-color hugo-server bookshop"
   },
@@ -25,9 +28,9 @@
   },
   "homepage": "https://github.com/CloudCannon/hugo-bookshop-starter#readme",
   "devDependencies": {
-    "@bookshop/browser": "3.6.2",
-    "@bookshop/generate": "3.6.2",
-    "@bookshop/hugo-engine": "3.6.2",
+    "@bookshop/browser": "3.6.3",
+    "@bookshop/generate": "3.6.3",
+    "@bookshop/hugo-engine": "3.6.3",
     "autoprefixer": "^10.4.14",
     "npm-run-all": "^4.1.5",
     "postcss": "^8.4.23",
