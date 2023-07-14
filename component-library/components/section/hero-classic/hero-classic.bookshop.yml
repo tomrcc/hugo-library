@@ -2,8 +2,8 @@
 spec:
   structures:
     - content_blocks
-  label: Hero
-  description: Main page hero block
+  label: Hero Classic
+  description: Main page hero block with background image or color, and optional CTA button.
   icon: title
   tags:
 
@@ -11,7 +11,9 @@ spec:
 blueprint:
   title:
   lead:
-  background_image:
+  background:
+    background_image:
+    background_color:
   button:
     button_link:
     button_text:
@@ -20,10 +22,13 @@ blueprint:
 preview:
   title: Body of the Year Bakery
   lead: "Dunedin, NZ"
-  background_image: http://www.placekitten.com/1000/1000
+  background:
+    background_image: https://placekitten.com/1500
+    background_color: white
   button: 
     button_link: /
     button_text: Contact
 
 # Any extra CloudCannon inputs configuration to apply to the blueprint
 _inputs:
+

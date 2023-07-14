@@ -1,16 +1,19 @@
 ---
+title: Hero Components
+linkTitle: Heros
+description:  A collection of hero components for the top of a page.
 content_blocks:
   - _bookshop_name: section/hero-classic
     lead: 
-    title: Hugo Components
-    subtitle: A library of Hugo Bookshop components
+    title: Hero Components
+    subtitle: A collection of components for the top of a page.
     background:
       background_image:
-      background_color: "#FFFFFF"
+      background_color: "$white"
     button:
   - _bookshop_name: section/card-grid-sections
-    heading: Hero Components
-    heading_link: /heros/
+    heading:
+    heading_link:
     sections:
       - _bookshop_name: simple/section-card
         heading: Hero - Classic

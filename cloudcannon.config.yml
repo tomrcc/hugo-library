@@ -47,4 +47,27 @@ _inputs:
     type: markdown
   heading:
     type: textarea
+  button_target:
+    type: select
+    options:
+      values: _select_data.button_targets
+      value_key: key
+      preview:
+        text:
+          - key: display_name
+
+_select_data:
+  button_targets:
+    - key: "_self"
+      display_name: Same tab
+    - key: "_blank"
+      display_name: New tab
+
+_structures:
+  button:
+    values:
+      - value:
+          button_link:
+          button_text:
+          button_target:
 

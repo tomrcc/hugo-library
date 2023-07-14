@@ -4,6 +4,11 @@
   max-width: $container-lg;
   margin: 0 auto;
 
+  &__heading {
+    grid-column: 2 / -2;
+    font-size: 2rem;
+  }
+
   &__container {
     grid-column: 2 / -2;
     display: grid;

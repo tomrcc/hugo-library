@@ -1,4 +1,4 @@
-.c-hero {
+.c-hero-classic {
     background-size: cover;
     background-repeat: no-repeat;
     margin-bottom: 96px;
@@ -9,7 +9,7 @@
         max-width: $container-lg;
         padding-block: 110px;
         margin: 0 auto;
-        color: white;
+        color: $dark;
     }
 
     &__title,
@@ -49,5 +49,6 @@
         background: black;
         border-radius: 3px;
         max-width: fit-content;
+        color: $white;
     }
 }
